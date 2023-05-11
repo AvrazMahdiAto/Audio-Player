@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { tracks } from "../data/tracks";
 
-// import components
+// import componente
 import DisplayTrack from "./DisplayTrack";
 import Controls from "./Controls";
 import ProgressBar from "./ProgressBar";
