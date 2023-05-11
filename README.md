@@ -15,7 +15,7 @@ git clone https://github.com/AvrazMahdiAto/Audio-Player
 Then:
 
 ```
-cd react-audio-player
+cd audio-player
 ```
 
 ```
