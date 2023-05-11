@@ -1,6 +1,7 @@
 // audio files
 import Ibrahim from "./Ibrahim-Tatlise.mp3";
 import Ibrahime from "./ASIQ-SON.mp3";
+import kurdim from "./kurdim.mp3";
 import beautiful from "./a_beautiful_day.mp3";
 import world from "./We_Are_The_World.mp3";
 import top from "./dbang-world.mp3";
@@ -8,7 +9,8 @@ import cinematic from "./cinematic-time-lapse-115672.mp3";
 import forest from "./forest-lullaby-110624.mp3";
 import podcast from "./the-podcast-intro-111863.mp3";
 
-// audio thumbnails
+// audio bilder
+import kurd from "./IMG_9769.jpg";
 import lexin from "./lexin.jpeg";
 import dbanj from "./dbanj.png";
 import jackson from "./jackson.jpeg";
@@ -23,7 +25,12 @@ export const tracks = [
     author: "Trinix ft Rushawn",
     thumbnail: trinix,
   },
-
+  {
+    title: "Kurdim ",
+    src: kurdim,
+    author: "Gara-&-Ayub",
+    thumbnail: kurd,
+  },
   {
     title: "Ibrahim-Tatlse – banin",
     src: Ibrahim,

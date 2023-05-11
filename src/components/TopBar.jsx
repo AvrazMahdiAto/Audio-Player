@@ -9,7 +9,7 @@ const TopBar = () => {
           rel="noopener noreferrer"
           title="github"
         >
-          available on GitHub
+          verfügbar auf GitHub
         </a>
       </p>
     </div>

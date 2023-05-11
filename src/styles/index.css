@@ -14,8 +14,9 @@ width: 100vw; */
 
 .audio-player {
   
-   background-image: url("https://i.pinimg.com/1200x/e2/e6/b3/e2e6b3a7fe3b4a843b83bdbb569652f6.jpg");
-  
+   /* background-image: url("https://i.pinimg.com/1200x/e2/e6/b3/e2e6b3a7fe3b4a843b83bdbb569652f6.jpg"); */
+  background-image: url('https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg');
+  /* background-image: url('https://w0.peakpx.com/wallpaper/332/262/HD-wallpaper-music-gives-you-soul-guitar-artist-artwork-digital-art-artstation.jpg'); */
   background-size: cover; 
   
   /* height: 60vh;
@@ -133,7 +134,7 @@ button svg {
 
 /* time */
 .time {
-  color: rgb(16, 13, 13);
+  color: rgb(253, 249, 249);
   font-size: 16px;
   line-height: 46px;
 }

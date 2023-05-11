@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from "react";
 
 // icons
 import {
@@ -8,19 +8,15 @@ import {
   IoPlaySkipForwardSharp,
   IoPlaySharp,
   IoPauseSharp,
-} from 'react-icons/io5';
+} from "react-icons/io5";
 
-import {
-  IoMdVolumeHigh,
-  IoMdVolumeOff,
-  IoMdVolumeLow,
-} from 'react-icons/io';
+import { IoMdVolumeHigh, IoMdVolumeOff, IoMdVolumeLow } from "react-icons/io";
 
 const Controls = ({
   audioRef,
   progressBarRef,
-  duration,
-  setTimeProgress,
+  Dauer,
+  setZeitfortschritt,
   tracks,
   trackIndex,
   setTrackIndex,
@@ -39,15 +35,15 @@ const Controls = ({
 
   const repeat = useCallback(() => {
     const currentTime = audioRef.current.currentTime;
-    setTimeProgress(currentTime);
+    setZeitfortschritt(currentTime);
     progressBarRef.current.value = currentTime;
     progressBarRef.current.style.setProperty(
-      '--range-progress',
-      `${(progressBarRef.current.value / duration) * 100}%`
+      "--range-progress",
+      `${(progressBarRef.current.value / Dauer) * 100}%`
     );
 
     playAnimationRef.current = requestAnimationFrame(repeat);
-  }, [audioRef, duration, progressBarRef, setTimeProgress]);
+  }, [audioRef, Dauer, progressBarRef, setZeitfortschritt]);
 
   useEffect(() => {
     if (isPlaying) {

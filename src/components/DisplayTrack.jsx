@@ -4,13 +4,13 @@ import { BsMusicNoteBeamed } from "react-icons/bs";
 const DisplayTrack = ({
   currentTrack,
   audioRef,
-  setDuration,
+  setDauer,
   progressBarRef,
   handleNext,
 }) => {
   const onLoadedMetadata = () => {
     const seconds = audioRef.current.duration;
-    setDuration(seconds);
+    setDauer(seconds);
     progressBarRef.current.max = seconds;
   }; //die funktion_onLoadeMetadata wird aufgerufen wenn des Audio-elements gelden wurden.
 
