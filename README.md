@@ -15,7 +15,7 @@ git clone https://github.com/AvrazMahdiAto/Audio-Player
 dann:
 
 ```
-cd audio-player
+cd audio player
 ```
 
 ```
